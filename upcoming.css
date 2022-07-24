@@ -1,26 +1,15 @@
 body {
     font-family: 'Poppins', sans-serif;
-    height: 100%;
-    width: 100%;
 }
 
 .top-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid black;
     border-radius: 20px;
-    width: 80%;
     color: whitesmoke;
     background-color: black;
+    width: 80%;
     margin: 40px 0 150px 150px;
 
-}
-
-
-.banner-font {
-    display: flex;
-    font-weight: 900;
 }
 
 .banner-text {
@@ -29,16 +18,14 @@ body {
     height: 200px;
 }
 
-.banner-img img {
-    width: 500px;
-    height: 550px;
-}
-
 .banner-img {
-    padding-left: 50%;
-
+    margin-left: 600px;
 }
 
+.banner-img img {
+    width: 550px;
+    height: 500px;
+}
 
 .banner-font {
     font-size: 4em;
@@ -70,6 +57,7 @@ body {
 .live-site:hover {
     width: 350px;
     background-color: darkred;
+
 
 }
 
@@ -112,20 +100,35 @@ body {
     color: whitesmoke;
 }
 
-#link-font a {
-    text-decoration: none;
-    color: black;
-}
-
-.fast-banner {
+.upcoming-match {
     border: 2px solid whitesmoke;
     border-radius: 5px;
-    width: 310px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
 
 }
 
-.big-banner {
+.fast-font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.second-font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.third-font {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.upcoming-main {
     border: 1px solid whitesmoke;
     border-radius: 5px;
     margin-right: 120px;
@@ -134,28 +137,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
-}
 
-.fast-part p {
-    margin-left: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 75px;
-    text-align: center;
-}
-
-.fast-part h3 {
-    margin-left: 10px;
-}
-
-.second-part {
-    margin-left: 10px;
-    display: inline-flex;
-
-}
-
-#second-icon {
-    margin-left: 30px;
 }
 
 .big-footer {
