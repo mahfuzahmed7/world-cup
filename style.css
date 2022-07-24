@@ -189,3 +189,9 @@ body {
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 688px) {
+    .big-banner {
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
