@@ -4,6 +4,7 @@ body {
     width: 100%;
 }
 
+/*------- banner part------*/
 .top-banner {
     display: flex;
     justify-content: center;
@@ -73,6 +74,7 @@ body {
 
 }
 
+/*------- middle part------*/
 .middle-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -158,8 +160,10 @@ body {
     margin-left: 30px;
 }
 
+/*------- footer part------*/
 .big-footer {
     text-align: center;
+    justify-content: center;
     border-bottom: 1px solid black;
     margin-left: 150px;
     margin-right: 100px;
@@ -190,8 +194,25 @@ body {
     margin-bottom: 50px;
 }
 
+/*------------------------------------media quaries------------------------------------*/
+/*---mobile view----*/
+
 @media only screen and (max-width: 688px) {
     .big-banner {
-        grid-template-rows: repeat(1, 1fr);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
     }
-}
+
+    /*---tablet  view----*/
+    @media only screen and (min-width: 689px) (max-width: 688px) {
+        .middle-font {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .big-banner {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
